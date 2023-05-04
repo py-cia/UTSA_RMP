@@ -10,20 +10,6 @@ rs_driver_object <- rsDriver(browser = "chrome",
 
 rmDr <- rs_driver_object$client
 
-# Creating Data Frame
-
-# df <- data.frame(professor_id = NA,
-                 # professor_name = NA,
-                 # university = NA,
-                 # department = NA,
-                 # quality = NA,
-                 # difficulty = NA,
-                 # emotion = NA,
-                 # class_name = NA,
-                 # comment = NA,
-                 # thumbs_up = NA,
-                 # thumbs_down = NA,
-                 # review_date = NA)
 # If not already open
 # rmDr$open()
 
