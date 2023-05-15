@@ -149,7 +149,7 @@ intro_courses <- df %>% filter(class_name %in% c("ECO2013", "ECO2023"))
 intro_courses$quality[intro_courses$class_name == "ECO2013"] %>% mean()
 intro_courses$quality[intro_courses$class_name == "ECO2023"] %>% mean()
 
-# as expected, microeconomics is more difficult than macroeconomics. this is could be because there is more mathematics involved in a micro
+# as expected, microeconomics is more difficult than macroeconomics. this could be because there is more mathematics involved in a micro
 # class than a macro class
 intro_courses$difficulty[intro_courses$class_name == "ECO2013"] %>% mean()
 intro_courses$difficulty[intro_courses$class_name == "ECO2023"] %>% mean()
