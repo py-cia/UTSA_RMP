@@ -66,7 +66,7 @@ table(df3$class_name)
 
 df3$class_name[df3$class_name == "ECO2023001"] = "ECO2023"
 
-# df3[24, ] this is review was submitted at the start of the 2022 fall semester. so it could be a student from the summer or spring semester of 2022.
+# df3[24, ] this review was submitted at the start of the 2022 fall semester. so it could be a student from the summer or spring semester of 2022.
 # All summer eco courses were online and the review states they were in class. Doss taught 2 intro macro courses and 1 intro micro course. 
 # there are more students in his macro course. I will impute this to eco2013
 df3[24, 8] = "ECO2013"
@@ -79,7 +79,6 @@ table(df3$class_name)
 # removing the emoji from emotion column
 df3$emotion <- str_sub(df3$emotion, 14)
 
-# Analysis ----------------------------------------------------------------
 
 
 
