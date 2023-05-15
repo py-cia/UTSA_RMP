@@ -201,7 +201,7 @@ intro_courses$quality[intro_courses$class_name == "ECO2023"] %>% shapiro.test()
 eco_2013 <- intro_courses$quality[intro_courses$class_name == "ECO2013"]
 eco_2023 <- intro_courses$quality[intro_courses$class_name == "ECO2023"]
 
-# no significant difference between means
+# no significant difference between medians
 wilcox.test(eco_2013, eco_2023)
 
 intro_courses %>% select(class_name, quality) %>% 
